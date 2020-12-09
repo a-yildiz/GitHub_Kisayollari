@@ -93,3 +93,11 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | `git log --oneline` | Kayıttaki tüm değişikleri göster (tek satırlık özet halinde) |
 | `git diff [source_branch] [target_branch]` | İki branş arasındakı farkı göster |
 
+<br/>
+
+### Geri Alma
+
+| Komut | Açıklama |
+| ------- | ----------- |
+| `git reset HEAD~` | Kayıt defterine en son işlenen girdiyi sil. Dosyalar eskisi gibi kalır, sadece kayıt defterindeki girdi silinir. |
+| `git reset HEAD^ --hard; git push origin -f` | Sunucudaki branştan son sürüm değişikliğini zorla geri al. Dosyadaki değişiklikler de silinir!!|
