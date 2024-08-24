@@ -101,3 +101,4 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | ------- | ----------- |
 | `git reset HEAD~` | Kayıt defterine en son işlenen girdiyi sil. Dosyalar eskisi gibi kalır, sadece kayıt defterindeki girdi silinir. |
 | `git reset HEAD^ --hard; git push origin -f` | Sunucudaki branştan son sürüm değişikliğini zorla geri al. Dosyadaki değişiklikler de silinir!!|
+| `git commit --amend --no-edit; git push --force-with-lease origin` | Sunucudaki branşın kayıt defterine yerel değişiklileri iliştir.|
